@@ -11,3 +11,4 @@ foreach(string a in Strings)
        i = i + 1;
     }
 }
+System.Console.WriteLine(string.Join(" ", NewStrings));
