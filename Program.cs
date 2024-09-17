@@ -2,3 +2,12 @@
 System.Console.WriteLine(string.Join(" ", Strings));
 string[] NewStrings = new string [Strings.Length];
 int i = 0;
+foreach(string a in Strings)
+{
+    
+    if (a.Length <= 3)
+    {
+       NewStrings[i] = a;
+       i = i + 1;
+    }
+}
